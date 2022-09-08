@@ -18,6 +18,12 @@ Install dependencies
 yarn install
 ````
 
+To create database
+
+````bash
+yarn db-create
+````
+
 To start the [koa](https://koajs.com/) server, run the following command
 
 ````bash

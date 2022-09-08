@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "db-create": "sequelize db:create",
     "migrate-up": "sequelize db:migrate",
     "migrate-down": "sequelize db:migrate:undo:all",
     "start": "node index.js"
